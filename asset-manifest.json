@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.8f7e7d98.css",
+    "main.js": "/React-Portfolio/static/js/main.f5e93020.js",
+    "static/media/HAROLD_RESUME.pdf": "/React-Portfolio/static/media/HAROLD_RESUME.c2949bfa63e647b4d65a.pdf",
+    "static/media/haroldpictm2.jpg": "/React-Portfolio/static/media/haroldpictm2.be4837b0057adf6d7412.jpg",
+    "static/media/prj1.jpg": "/React-Portfolio/static/media/prj1.7932ba61181f632691f5.jpg",
+    "static/media/prj3.jpg": "/React-Portfolio/static/media/prj3.383c81c94c78bb1744e7.jpg",
+    "static/media/prj2.jpg": "/React-Portfolio/static/media/prj2.b8b57fa3a37aa872979d.jpg",
+    "static/media/prj4.jpg": "/React-Portfolio/static/media/prj4.120f0d431e8ee4197007.jpg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.8f7e7d98.css.map": "/React-Portfolio/static/css/main.8f7e7d98.css.map",
+    "main.f5e93020.js.map": "/React-Portfolio/static/js/main.f5e93020.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f7e7d98.css",
+    "static/js/main.f5e93020.js"
+  ]
+}
