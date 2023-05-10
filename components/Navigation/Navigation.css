@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  justify-content: flex-end; /* Change from space-around to flex-end to align items to the right */
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-item:hover,
+.nav-item.active {
+  color: #ccc;
+}
