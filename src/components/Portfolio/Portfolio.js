@@ -7,7 +7,7 @@ import prj4 from '../../images/prj4.jpg';
 import './Portfolio.css'; // import the CSS file
 
 const Portfolio = () => {
-  // Replace with your actual projects' data
+  // Actual projects data
   const projects = [
     { title: 'Project 1', imageUrl: prj1, deployedUrl: 'https://github.com/harold-fv/Tech-Blog', repoUrl: 'https://github.com/harold-fv/Tech-Blog' },
     { title: 'Project 2', imageUrl: prj2, deployedUrl: 'https://github.com/harold-fv/Social-Network-API', repoUrl: 'https://github.com/harold-fv/Social-Network-API' },
