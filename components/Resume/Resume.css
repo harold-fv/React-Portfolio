@@ -1,0 +1,36 @@
+.resume {
+  padding: 2rem;
+}
+
+.resume h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.download-resume {
+  display: inline-block;
+  background-color: #70A9FF;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.download-resume:hover {
+  background-color: #4d85d1;
+}
+
+.resume h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.resume ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resume li {
+  margin-bottom: 0.5rem;
+}
