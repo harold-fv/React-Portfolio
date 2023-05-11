@@ -13,7 +13,7 @@ const Footer = () => {
           GitHub
         </a>
         <a
-          href="https://www.linkedin.com/in/harold-gonazales-24284a4b"
+          href="https://www.linkedin.com/in/harold-gonzales-24284a4b"
           target="_blank"
           rel="noopener noreferrer"
         >
