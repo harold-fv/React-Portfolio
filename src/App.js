@@ -1,5 +1,5 @@
 // Imports the necessary React and component libraries, as well as the application's CSS styles.
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './components/Header/Header';
 import AboutMe from './components/AboutMe/AboutMe';
 import Portfolio from './components/Portfolio/Portfolio';
@@ -10,13 +10,12 @@ import './assets/styles.css';
 
 // Defines the main App component, which serves as the root component for the application.
 function App() {
+  const base = '/React-Portfolio'; // Define the base path here
+  const [route, setRoute] = useState(window.location.pathname.replace(base, '') || '/');
 
-  const [route, setRoute] = React.useState(window.location.pathname);
-
-// Utilizes the useEffect hook to add an event listener to the window object
-  React.useEffect(() => {
+  useEffect(() => {
     const handleRouteChange = () => {
-      setRoute(window.location.pathname);
+      setRoute(window.location.pathname.replace(base, '') || '/');
     };
 
     window.addEventListener('popstate', handleRouteChange);
@@ -24,8 +23,8 @@ function App() {
     return () => {
       window.removeEventListener('popstate', handleRouteChange);
     };
-  }, []);
- // Defines a function 'renderRoute' that returns different components 
+  }, [base]);
+
   const renderRoute = () => {
     switch (route) {
       case '/':
