@@ -1,7 +1,12 @@
+// Imports React and the component's specific CSS styles.
 import React from 'react';
 import './Project.css';
 
+// This is a functional React component named 'Project'. 
+// the URL of the project image, the URL of the deployed project, and the URL of the project's GitHub repository.
 const Project = ({ title, imageUrl, deployedUrl, repoUrl }) => {
+
+// Returns the JSX for the 'Project' component. 
   return (
     <div className="project">
       <a href={deployedUrl} target="_blank" rel="noreferrer">
@@ -24,5 +29,5 @@ const Project = ({ title, imageUrl, deployedUrl, repoUrl }) => {
     </div>
   );
 };
-
+// Exports the 'Project' component so it can be imported and used in other components or files.
 export default Project;
