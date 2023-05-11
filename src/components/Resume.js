@@ -1,7 +1,7 @@
 // Imports React, the component's specific CSS styles, and a PDF file of Harold's resume.
 import React from 'react';
-import './Resume.css';
-import haroldresume from '../../images/HAROLD_RESUME.pdf';
+import './Resume/Resume.css';
+import haroldresume from '../images/HAROLD_RESUME.pdf';
 
 // This is a functional React component named 'Resume'.
 const Resume = () => {

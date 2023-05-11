@@ -1,6 +1,6 @@
 // Imports React and the component's specific CSS styles.
 import React from 'react';
-import './Project.css';
+import './Project/Project.css';
 
 // This is a functional React component named 'Project'. 
 // the URL of the project image, the URL of the deployed project, and the URL of the project's GitHub repository.

@@ -1,10 +1,10 @@
 import React from 'react';
-import Project from '../Project/Project';
-import prj1 from '../../images/prj1.jpg';
-import prj2 from '../../images/prj2.jpg';
-import prj3 from '../../images/prj3.jpg';
-import prj4 from '../../images/prj4.jpg';
-import './Portfolio.css'; // import the CSS file
+import Project from './Project';
+import prj1 from '../images/prj1.jpg';
+import prj2 from '../images/prj2.jpg';
+import prj3 from '../images/prj3.jpg';
+import prj4 from '../images/prj4.jpg';
+import './Portfolio/Portfolio.css'; // import the CSS file
 
 const Portfolio = () => {
   

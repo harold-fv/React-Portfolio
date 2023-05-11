@@ -2,16 +2,20 @@
   padding: 2rem;
   display: flex;
   flex-direction: column;
+
+ color:white
 }
 
 .about-me h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
+
 }
 
 .about-me-content {
   display: flex;
   align-items: center;
+
 }
 
 .about-me img {
@@ -24,6 +28,7 @@
 .about-me p {
   font-size: 1.1rem;
   line-height: 1.6;
+  font-display: white;
 }
 
 @media (max-width: 768px) {

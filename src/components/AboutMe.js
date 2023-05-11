@@ -1,6 +1,6 @@
 import React from 'react';
-import './AboutMe.css';
-import haroldpictm2 from '../../images/haroldpictm2.jpg';
+import './AboutMe/AboutMe.css';
+import haroldpictm2 from '../images/haroldpictm2.jpg';
 
 const AboutMe = () => {
   return (
