@@ -1,5 +1,6 @@
 .project {
   position: relative;
+  margin-top: 60px; /* Adjust this to move the project cards down */
 }
 
 .project-content {
@@ -8,11 +9,11 @@
 }
 
 .project-image {
-  width: 600px; /* Increased width for rectangular shape */
-  height: 300px; /* Adjust height as needed */
+  width: 500px; 
+  height: 250px; 
   object-fit: cover;
   border-radius: 20px;
-  margin: 10px; /* Add margin to bring images closer */
+  margin: .1px; 
   transition: transform 0.5s ease;
 }
 
