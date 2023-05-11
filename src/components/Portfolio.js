@@ -7,13 +7,13 @@ import prj4 from '../images/prj4.jpg';
 import './Portfolio/Portfolio.css'; // import the CSS file
 
 const Portfolio = () => {
-  
+
   const projects = [
-    { title: 'Project 1', imageUrl: prj1, deployedUrl: 'https://github.com/harold-fv/Tech-Blog', repoUrl: 'https://github.com/harold-fv/Tech-Blog' },
-    { title: 'Project 2', imageUrl: prj2, deployedUrl: 'https://github.com/harold-fv/Social-Network-API', repoUrl: 'https://github.com/harold-fv/Social-Network-API' },
-    { title: 'Project 3', imageUrl: prj3, deployedUrl: 'https://github.com/harold-fv/Employee-Tracker', repoUrl: 'https://github.com/harold-fv/Employee-Tracker' },
-    { title: 'Project 4', imageUrl: prj4, deployedUrl: 'https://github.com/harold-fv/project2-foodcritics', repoUrl: 'https://github.com/harold-fv/project2-foodcritics' },
-    // ...
+    { title: 'Project 1', imageUrl: prj1, deployedUrl: 'https://harold-fv.github.io/project-setup/', repoUrl: 'https://harold-fv.github.io/project-setup' },
+    { title: 'Project 2', imageUrl: prj2, deployedUrl: 'https://hidden-retreat-77670.herokuapp.com', repoUrl: 'https://github.com/samanthaahn/food-critics' },
+    { title: 'Project 3', imageUrl: prj3, deployedUrl: 'https://sheltered-retreat-34476.herokuapp.com', repoUrl: 'https://github.com/harold-fv/Tech-Blog' },
+    { title: 'Coming soon', imageUrl: prj4, deployedUrl: 'https://github.com/harold-fv/E-Commerce-Back-End', repoUrl: 'https://github.com/harold-fv/E-Commerce-Back-End' },
+
   ];
 
   return (
