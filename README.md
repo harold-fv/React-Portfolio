@@ -18,11 +18,13 @@ A React Portfolio is my personal website that showcases my work and experiences 
 
   To install and use my  application React Pordfolio, please follow these steps: 
   
-  1.You can clone this repository to your local machine using Git:2. Git clone https://github.com/harold-fv/React-Portfolio.
+  1.You can clone this repository to your local machine using Git:
   
-  2. Next, run the following on the command line, npm i. 
+  2. Git clone https://github.com/harold-fv/React-Portfolio.
   
-  3. After you install the package ,from the command line type npm run start to run the program.
+  3. Next, run the following on the command line, npm i. 
+  
+  4. After you install the package ,from the command line type npm run start to run the program.
   
   ## Usage
 
