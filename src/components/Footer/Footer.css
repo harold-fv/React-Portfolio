@@ -4,7 +4,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: fixed; /* make it stick to the bottom */
+  bottom: 0; /* align it at the bottom of the page */
+  width: 100%; /* make it span the whole width of the page */
 }
 
 .footer:before {
