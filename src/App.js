@@ -10,30 +10,29 @@ import './assets/styles.css';
 
 // Defines the main App component, which serves as the root component for the application.
 function App() {
-  const base = '/React-Portfolio'; // Define the base path here
-  const [route, setRoute] = useState(window.location.pathname.replace(base, '') || '/');
+  const [route, setRoute] = useState(window.location.hash || '#/');
 
   useEffect(() => {
     const handleRouteChange = () => {
-      setRoute(window.location.pathname.replace(base, '') || '/');
+      setRoute(window.location.hash || '#/');
     };
 
-    window.addEventListener('popstate', handleRouteChange);
+    window.addEventListener('hashchange', handleRouteChange);
 
     return () => {
-      window.removeEventListener('popstate', handleRouteChange);
+      window.removeEventListener('hashchange', handleRouteChange);
     };
-  }, [base]);
+  }, []);
 
   const renderRoute = () => {
     switch (route) {
-      case '/':
+      case '#/':
         return <AboutMe />;
-      case '/portfolio':
+      case '#/portfolio':
         return <Portfolio />;
-      case '/resume':
+      case '#/resume':
         return <Resume />;
-      case '/contact':
+      case '#/contact':
         return <Contact />;
       default:
         return <AboutMe />;
