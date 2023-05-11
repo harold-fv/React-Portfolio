@@ -1,5 +1,5 @@
 // Imports the necessary React and component libraries, as well as the application's CSS styles.
-import React, { useState} from 'react';
+import React from 'react';
 import Header from './components/Header/Header';
 import AboutMe from './components/AboutMe/AboutMe';
 import Portfolio from './components/Portfolio/Portfolio';
