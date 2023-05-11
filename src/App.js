@@ -1,5 +1,5 @@
 // Imports the necessary React and component libraries, as well as the application's CSS styles.
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Header from './components/Header/Header';
 import AboutMe from './components/AboutMe/AboutMe';
 import Portfolio from './components/Portfolio/Portfolio';
@@ -10,29 +10,31 @@ import './assets/styles.css';
 
 // Defines the main App component, which serves as the root component for the application.
 function App() {
-  const [route, setRoute] = useState(window.location.hash || '#/');
 
-  useEffect(() => {
+  const [route, setRoute] = React.useState(window.location.pathname);
+
+// Utilizes the useEffect hook to add an event listener to the window object
+  React.useEffect(() => {
     const handleRouteChange = () => {
-      setRoute(window.location.hash || '#/');
+      setRoute(window.location.pathname);
     };
 
-    window.addEventListener('hashchange', handleRouteChange);
+    window.addEventListener('popstate', handleRouteChange);
 
     return () => {
-      window.removeEventListener('hashchange', handleRouteChange);
+      window.removeEventListener('popstate', handleRouteChange);
     };
   }, []);
-
+ // Defines a function 'renderRoute' that returns different components 
   const renderRoute = () => {
     switch (route) {
-      case '#/':
+      case '/':
         return <AboutMe />;
-      case '#/portfolio':
+      case '/portfolio':
         return <Portfolio />;
-      case '#/resume':
+      case '/resume':
         return <Resume />;
-      case '#/contact':
+      case '/contact':
         return <Contact />;
       default:
         return <AboutMe />;
