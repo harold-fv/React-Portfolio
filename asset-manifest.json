@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.d8d15ab5.css",
-    "main.js": "/React-Portfolio/static/js/main.40107e3c.js",
+    "main.css": "/React-Portfolio/static/css/main.f79e9158.css",
+    "main.js": "/React-Portfolio/static/js/main.b063803d.js",
     "static/media/HAROLD_RESUME.pdf": "/React-Portfolio/static/media/HAROLD_RESUME.f21df6b76ae41edfd139.pdf",
     "static/media/haroldpictm2.jpg": "/React-Portfolio/static/media/haroldpictm2.be4837b0057adf6d7412.jpg",
     "static/media/prj1.jpg": "/React-Portfolio/static/media/prj1.7932ba61181f632691f5.jpg",
@@ -9,11 +9,11 @@
     "static/media/prj2.jpg": "/React-Portfolio/static/media/prj2.b8b57fa3a37aa872979d.jpg",
     "static/media/prj4.jpg": "/React-Portfolio/static/media/prj4.120f0d431e8ee4197007.jpg",
     "index.html": "/React-Portfolio/index.html",
-    "main.d8d15ab5.css.map": "/React-Portfolio/static/css/main.d8d15ab5.css.map",
-    "main.40107e3c.js.map": "/React-Portfolio/static/js/main.40107e3c.js.map"
+    "main.f79e9158.css.map": "/React-Portfolio/static/css/main.f79e9158.css.map",
+    "main.b063803d.js.map": "/React-Portfolio/static/js/main.b063803d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8d15ab5.css",
-    "static/js/main.40107e3c.js"
+    "static/css/main.f79e9158.css",
+    "static/js/main.b063803d.js"
   ]
 }
