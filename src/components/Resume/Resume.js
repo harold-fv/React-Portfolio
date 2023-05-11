@@ -1,8 +1,15 @@
+// Imports React, the component's specific CSS styles, and a PDF file of Harold's resume.
 import React from 'react';
 import './Resume.css';
 import haroldresume from '../../images/HAROLD_RESUME.pdf';
 
+// This is a functional React component named 'Resume'.
 const Resume = () => {
+
+ // Returns the JSX for the 'Resume' component. This component is a section with the class 'resume',
+  // containing an h2 tag, a download link for Harold's resume, and an h3 tag followed by several unordered lists.
+  // These lists describe Harold's proficiencies in front-end and back-end development.
+
   return (
     <section className="resume">
       <h2>Resume</h2>
@@ -43,4 +50,5 @@ Experienced in using modern development tools and methodologies, such as version
   );
 };
 
+// Exports the 'Resume' component so it can be imported and used in other components or files.
 export default Resume;
