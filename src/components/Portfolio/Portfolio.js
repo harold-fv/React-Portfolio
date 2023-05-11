@@ -1,5 +1,3 @@
-
-//Imports the necessary modules and components
 import React from 'react';
 import Project from '../Project/Project';
 import prj1 from '../../images/prj1.jpg';
@@ -9,8 +7,7 @@ import prj4 from '../../images/prj4.jpg';
 import './Portfolio.css'; // import the CSS file
 
 const Portfolio = () => {
- // Defines an array of projects where each project is represented as an object. 
-  // Each object includes properties for the project's title, image URL, deployed URL, and repository URL.
+  
   const projects = [
     { title: 'Project 1', imageUrl: prj1, deployedUrl: 'https://github.com/harold-fv/Tech-Blog', repoUrl: 'https://github.com/harold-fv/Tech-Blog' },
     { title: 'Project 2', imageUrl: prj2, deployedUrl: 'https://github.com/harold-fv/Social-Network-API', repoUrl: 'https://github.com/harold-fv/Social-Network-API' },
