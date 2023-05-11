@@ -1,12 +1,12 @@
+
 import React from 'react';
 import Navigation from '../Navigation/Navigation';
-import '../Header/Header.css';
-
+import './Header.css'; 
 
 const Header = () => {
   return (
-    <header>
-      <h1>Harold Gonzales</h1>
+    <header className="header"> 
+      <h1 className="header-title">Portfolio</h1> 
       <Navigation />
     </header>
   );

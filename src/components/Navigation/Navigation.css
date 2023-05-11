@@ -1,26 +1,32 @@
+/* Navigation.css */
+
 .nav {
   display: flex;
-  justify-content: flex-end; /* Change from space-around to flex-end to align items to the right */
+  justify-content: flex-end; 
   align-items: center;
+}
+
+.nav-list {
+  display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.nav ul {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.nav-list-item {
+  margin: 0 1rem;
 }
 
 .nav-item {
   color: #fff;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  font-family: Arial, sans-serif; /* Change to a modern font that matches your design. */
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .nav-item:hover,
 .nav-item.active {
   color: #ccc;
+  transform: scale(1.05); /* Slightly enlarges the link on hover */
 }
