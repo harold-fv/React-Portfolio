@@ -9,13 +9,8 @@ import prj4 from '../../images/prj4.jpg';
 import './Portfolio.css'; // import the CSS file
 
 const Portfolio = () => {
-<<<<<<< HEAD
-  
  // Defines an array of projects where each project is represented as an object. 
   // Each object includes properties for the project's title, image URL, deployed URL, and repository URL.
-=======
-  // Actual projects data
->>>>>>> 0143fb877c70f2ddf721cd20006a74ace4a98eca
   const projects = [
     { title: 'Project 1', imageUrl: prj1, deployedUrl: 'https://github.com/harold-fv/Tech-Blog', repoUrl: 'https://github.com/harold-fv/Tech-Blog' },
     { title: 'Project 2', imageUrl: prj2, deployedUrl: 'https://github.com/harold-fv/Social-Network-API', repoUrl: 'https://github.com/harold-fv/Social-Network-API' },
@@ -23,10 +18,6 @@ const Portfolio = () => {
     { title: 'Project 4', imageUrl: prj4, deployedUrl: 'https://github.com/harold-fv/project2-foodcritics', repoUrl: 'https://github.com/harold-fv/project2-foodcritics' },
     // ...
   ];
-
-
-  // This component contains a div with two nested elements: an h2 tag and another div.
-  // The h2 tag displays the title 'Portfolio'. 
 
   return (
     <div className="mainproject">
