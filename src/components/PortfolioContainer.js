@@ -5,7 +5,7 @@ import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import Resume from './Resume';
 import Contact from './Contact';
-import NavTabs from './NavTabs';
+import NavTabs from './Navtabs';
 import Footer from './Footer'; 
 
 export default function PortfolioContainer() {
