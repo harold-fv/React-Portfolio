@@ -11,7 +11,6 @@ A React Portfolio is my personal website that showcases my work and experiences 
   - [Usage](#usage)
   - [License](#license)
   - [Contributing](#contributing)
-  - [Tests](#tests)
   - [Questions](#questions)
   
   ## Installation
